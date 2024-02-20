@@ -547,6 +547,7 @@ local servers = {
   -- clangd = {},
   -- gopls = {},
   pyright = {},
+  phpactor = {},
   -- rust_analyzer = {},
   prismals = {},
   tailwindcss = {},
