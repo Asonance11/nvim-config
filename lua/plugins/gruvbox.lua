@@ -1,5 +1,5 @@
 return {
-  "ellisonleao/gruvbox.nvim",
+  "morhetz/gruvbox",
   lazy = false,
   name = "gruvbox",
   priority = 1000,
