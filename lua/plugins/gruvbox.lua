@@ -1,9 +1,8 @@
 return {
-  "morhetz/gruvbox",
+  "luisiacc/gruvbox-baby",
   lazy = false,
-  name = "gruvbox",
   priority = 1000,
   config = function()
-    vim.cmd.colorscheme("gruvbox")
+    vim.cmd.colorscheme("gruvbox-baby")
   end,
 }
