@@ -15,6 +15,7 @@ vim.wo.signcolumn = "number"
 vim.o.updatetime = 250
 vim.o.timeoutlen = 300
 vim.o.clipboard = "unnamedplus"
+vim.o.scrolloff = 999
 
 local highlight_group = vim.api.nvim_create_augroup("YankHighlight", { clear = true })
 vim.api.nvim_create_autocmd("TextYankPost", {
