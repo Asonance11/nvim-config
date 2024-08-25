@@ -20,6 +20,7 @@ return {
 					"html",
 					"cssls",
 					"emmet_language_server",
+					"gopls",
 				},
 			})
 		end,
@@ -124,6 +125,9 @@ return {
 				capabilities = capabilities,
 			})
 			lspconfig.emmet_language_server.setup({
+				capabilities = capabilities,
+			})
+			lspconfig.gopls.setup({
 				capabilities = capabilities,
 			})
 
