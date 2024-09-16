@@ -94,10 +94,10 @@ return {
       })
       local lspconfig = require("lspconfig")
 
-      local on_attach = function(client, bufnr)
-        -- other stuff --
-        require("tailwindcss-colors").buf_attach(bufnr)
-      end
+      -- local on_attach = function(client, bufnr)
+      --   -- other stuff --
+      --   require("tailwindcss-colors").buf_attach(bufnr)
+      -- end
 
       lspconfig.lua_ls.setup({
         capabilities = capabilities,
@@ -107,7 +107,7 @@ return {
       })
       lspconfig.tailwindcss.setup({
         capabilities = capabilities,
-        on_attach = on_attach,
+        -- on_attach = on_attach,
       })
       lspconfig.prismals.setup({
         capabilities = capabilities,
