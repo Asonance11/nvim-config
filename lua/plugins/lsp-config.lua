@@ -19,6 +19,7 @@ return {
           "clangd",
           "html",
           "cssls",
+          "emmet_language_server",
           "gopls",
         },
       })

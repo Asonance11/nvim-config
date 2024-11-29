@@ -1,7 +1,7 @@
 local o = vim.o
 o.ignorecase = true -- Ignore case when using lowercase in search
 o.incsearch = true
-o.smartcase = true  -- But don't ignore it when using upper case
+o.smartcase = true -- But don't ignore it when using upper case
 o.smarttab = true
 o.smartindent = true
 vim.g.mapleader = " "
@@ -25,11 +25,11 @@ vim.o.scrolloff = 999
 
 local highlight_group = vim.api.nvim_create_augroup("YankHighlight", { clear = true })
 vim.api.nvim_create_autocmd("TextYankPost", {
-  callback = function()
-    vim.highlight.on_yank()
-  end,
-  group = highlight_group,
-  pattern = "*",
+	callback = function()
+		vim.highlight.on_yank()
+	end,
+	group = highlight_group,
+	pattern = "*",
 })
 
 -- navigating panes easier
