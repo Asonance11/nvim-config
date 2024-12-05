@@ -41,6 +41,8 @@ require('lazy').setup({
 
   require 'custom/plugins/fugitive',
 
+  require 'custom/plugins/autotag',
+
   require 'kickstart/plugins/gruvbox',
 
   require 'kickstart/plugins/todo-comments',
