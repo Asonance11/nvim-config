@@ -41,6 +41,8 @@ require('lazy').setup({
 
   require 'custom/plugins/fugitive',
 
+  require 'custom/plugins/copilot',
+
   require 'custom/plugins/autotag',
 
   require 'kickstart/plugins/gruvbox',
