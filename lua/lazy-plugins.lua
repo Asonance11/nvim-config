@@ -45,6 +45,8 @@ require('lazy').setup({
 
   require 'custom/plugins/autotag',
 
+  require 'custom/plugins/wakatime',
+
   require 'kickstart/plugins/gruvbox',
 
   require 'kickstart/plugins/todo-comments',
