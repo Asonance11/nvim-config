@@ -190,6 +190,8 @@ return {
         ts_ls = {},
         tailwindcss = {},
         prismals = {},
+        cssls = {},
+        html = {},
         --
 
         lua_ls = {
