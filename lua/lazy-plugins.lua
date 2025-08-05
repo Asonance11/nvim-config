@@ -49,6 +49,10 @@ require('lazy').setup({
 
   require 'custom/plugins/wakatime',
 
+  require 'custom/plugins/smear',
+
+  require 'custom/plugins/neoscroll',
+
   require 'kickstart/plugins/gruvbox',
 
   require 'kickstart/plugins/todo-comments',
