@@ -53,6 +53,8 @@ require('lazy').setup({
 
   require 'custom/plugins/neoscroll',
 
+  require 'custom/plugins/nvim-tmux-navigator',
+
   require 'kickstart/plugins/gruvbox',
 
   require 'kickstart/plugins/todo-comments',
