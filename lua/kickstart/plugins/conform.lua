@@ -36,7 +36,10 @@ return {
         lua = { 'stylua' },
         css = { 'prettierd' },
         html = { 'prettierd' },
+        json = { 'prettierd' },
         go = { 'golines' },
+
+        php = { 'pint', 'php-cs-fixer' },
         -- Conform can also run multiple formatters sequentially
         python = { 'black' },
         --
