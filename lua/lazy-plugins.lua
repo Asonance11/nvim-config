@@ -49,6 +49,8 @@ require('lazy').setup({
 
   require 'custom/plugins/wakatime',
 
+  require 'custom/plugins/lualine',
+
   require 'custom/plugins/smear',
 
   require 'custom/plugins/neoscroll',
