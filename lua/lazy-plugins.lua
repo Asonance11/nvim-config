@@ -43,7 +43,7 @@ require('lazy').setup({
 
   require 'custom/plugins/transparent',
 
-  require 'custom/plugins/copilot',
+  -- require 'custom/plugins/copilot',
 
   require 'custom/plugins/autotag',
 
