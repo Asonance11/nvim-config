@@ -103,10 +103,17 @@ vim.api.nvim_create_autocmd('LspAttach', {
 --  See `:help lsp-config` for information about keys and how to configure
 ---@type table<string, vim.lsp.Config>
 local servers = {
-  -- clangd = {},
-  -- gopls = {},
-  -- pyright = {},
-  -- tsc = {},
+  clangd = {},
+  gopls = {},
+  pyright = {},
+  tsc = {},
+  tailwindcss = {},
+  prismals = {},
+  cssls = {},
+  html = {},
+  jsonls = {},
+  docker_compose_language_service = {},
+
   --
   -- Some languages (like rust) have entire language plugins that can be useful:
   --    https://github.com/mrcjkb/rustaceanvim
